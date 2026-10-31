@@ -16,7 +16,7 @@ Without AI credentials, the full planning journey works in deterministic demo mo
 
 ## Architecture
 
-Vite/React frontend; Express/TypeScript API; Zod request validation; server-side catalogue and PayPal Orders API v2 adapter; JSON persistence for verified transactions. See [ARCHITECTURE.md](ARCHITECTURE.md), [SECURITY.md](SECURITY.md), and [API_DOCUMENTATION.md](API_DOCUMENTATION.md).
+Vite/React frontend with AG Grid transaction management; Express/TypeScript API; Zod request validation; server-side catalogue and PayPal Orders API v2 adapter; JSON persistence for verified transactions. See [ARCHITECTURE.md](ARCHITECTURE.md), [SECURITY.md](SECURITY.md), and [API_DOCUMENTATION.md](API_DOCUMENTATION.md).
 
 ## Verification
 
