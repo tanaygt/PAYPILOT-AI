@@ -1,0 +1,10 @@
+import type { Product } from './types';
+export const catalogue:Product[]=[
+{id:'mon-acer-24',name:'Acer Vero 24” Monitor',category:'Monitors',price:149,description:'Crisp 1080p IPS monitor with ergonomic stand.',availability:'in-stock',specifications:{display:'24-inch IPS',resolution:'1920×1080',ports:'HDMI, DisplayPort'}},
+{id:'mon-dell-27',name:'Dell UltraSharp 27”',category:'Monitors',price:329,description:'Professional QHD display for focused work.',availability:'in-stock',specifications:{display:'27-inch IPS',resolution:'2560×1440',ports:'USB-C, HDMI'}},
+{id:'chair-branch',name:'Branch Ergonomic Chair',category:'Office Chairs',price:299,description:'Adjustable lumbar support and breathable mesh.',availability:'in-stock',specifications:{support:'7-point adjustment',material:'Mesh',warranty:'5 years'}},
+{id:'chair-flex',name:'Flex Task Chair',category:'Office Chairs',price:179,description:'Comfort-first task chair for everyday work.',availability:'low-stock',specifications:{support:'Adjustable lumbar',material:'Fabric',warranty:'2 years'}},
+{id:'key-logi',name:'Logitech MX Keys S',category:'Keyboards',price:99,description:'Quiet, comfortable wireless keyboard.',availability:'in-stock',specifications:{connectivity:'Bluetooth / Bolt',layout:'Full-size',battery:'Up to 5 months'}},
+{id:'laptop-framework',name:'Framework 13 Laptop',category:'Laptops',price:999,description:'Repairable, modular laptop for modern teams.',availability:'low-stock',specifications:{display:'13.5-inch',memory:'16GB',storage:'512GB SSD'}},
+{id:'desk-uplift',name:'Uplift Standing Desk',category:'Desks',price:549,description:'Electric sit-stand desk with memory presets.',availability:'in-stock',specifications:{width:'60-inch',range:'25.5–50.9-inch',top:'Bamboo'}},
+{id:'hub-anker',name:'Anker 7-in-1 USB-C Hub',category:'Accessories',price:49,description:'Compact connectivity for laptops and desks.',availability:'in-stock',specifications:{ports:'HDMI, USB-A, SD',power:'100W pass-through',size:'Pocket'}}];

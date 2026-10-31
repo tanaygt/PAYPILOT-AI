@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+*.db
+*.db-journal
+paypilot-data.json
+tsconfig.tsbuildinfo
+tutorial_frame.png
+demo_video_assets/
+tutorial_video_assets/
